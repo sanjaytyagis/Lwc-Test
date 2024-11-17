@@ -1,0 +1,23 @@
+<template>
+
+    <lightning-card title="Test LWC Javascript">
+       
+        <div class="slds-m-around_medium">
+            
+            <template if:true={datas}>
+                <template for:each={datas} for:item="item">
+                    <div key={item.id}>{item.name}</div>
+                </template>
+            </template>
+            <template if:true={errors}>
+                <p>Error loading data</p>
+            </template>
+            
+            <lightning-button variant="success" label="Success" title="Successful action" onclick={printData}></lightning-button>
+
+            <lightning-button variant="success" label="Js Func Test" title="JS Func Test" onclick={javaScriptMethodTest}></lightning-button>
+        
+        </div>
+    </lightning-card>
+   
+</template>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+<!--
+    <types>
+        <members>LwcTest</members>
+        <name>ApexClass</name> 
+    </types> 
+
+    <types>
+       <members>testscenario</members> 
+        <members>childComp</members>
+        <members>parentComp</members> 
+        <members>publish</members>
+        <members>subscribe</members>
+        <members>empApi</members>
+        <name>LightningComponentBundle</name>
+    </types> 
+
+    <types>
+       <members>TestMsgChannel</members>
+       <name>LightningMessageChannel</name>
+    </types>
+-->
+
+    <types>
+       <members>testscenario</members> 
+        <name>LightningComponentBundle</name>
+    </types> 
+
+
+    <version>62.0</version>
+</Package>
