@@ -23,9 +23,10 @@ export default class Testscenario extends LightningElement {
     data = 
             {
                 user1: { id: 1, name: 'sanjay' },
-                user2: { id: 2, name: 'pakhi' }
+                user2: { id: 2, name: 'pakhi' },
+                user3: { id: 3, name: 'Aarav' }
             }
-    
+
     javaScriptMethodTest(event){
         
         // For Arrays Traversal
@@ -63,6 +64,13 @@ export default class Testscenario extends LightningElement {
         Object.entries(this.data).forEach(([key, user]) => { console.log('Object data', key, user) } );
 
     }
+    
+    // Sorted 
+    sortedData = [
+        { id: 3, name: 'Sanjay' },
+        { id: 2, name: 'Pakhi' },
+        { id: 1, name: 'Aarav' }
+    ];
 
     // Imperative Call Apex
     printData(event){
