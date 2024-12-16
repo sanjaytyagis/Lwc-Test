@@ -11,6 +11,7 @@ import getDataRecords from '@salesforce/apex/LwcTest.getdata';
                 {id : 1, name: 'sanjay'},
                 {id : 2, name: 'pakhi'} 
             ]
+Hello  
  */
        
 export default class Testscenario extends LightningElement {
@@ -27,6 +28,7 @@ export default class Testscenario extends LightningElement {
                 user3: { id: 3, name: 'Aarav' }
             }
 
+    
     javaScriptMethodTest(event){
         
         // For Arrays Traversal
