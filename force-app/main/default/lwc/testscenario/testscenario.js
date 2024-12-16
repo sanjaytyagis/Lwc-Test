@@ -19,7 +19,7 @@ export default class Testscenario extends LightningElement {
     @track datas;
     errors = null;
     
-    arr = [1, 2, 3]; // Example array
+    arr = [1, 2, 3, 4]; // Example array
 
     data = 
             {
