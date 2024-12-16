@@ -19,8 +19,8 @@ export default class Testscenario extends LightningElement {
     @track datas;
     errors = null;
     
-    arr = [1, 2, 3, 4]; // Example array
 
+    arr = [1, 2, 3, 4, 5]; // Example array
     data = 
             {
                 user1: { id: 1, name: 'sanjay' },
